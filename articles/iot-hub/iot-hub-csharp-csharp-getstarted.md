@@ -174,6 +174,7 @@ In this section, you create a Windows console app that simulates a device that s
 4. Add the following `using` statement at the top of the **Program.cs** file:
 
 		using Microsoft.Azure.Devices.Client;
+        using System.Threading.Tasks;
         using Newtonsoft.Json;
 
 5. Add the following fields to the **Program** class. Substitute the placeholder values with the IoT hub hostname you retrieved in the "Create an IoT hub" section, and the device key retrieved in the "Create a device identity" section.
